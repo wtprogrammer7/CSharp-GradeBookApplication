@@ -6,7 +6,7 @@ namespace GradeBook.GradeBooks //Part2 Step5- Create RankedGradeBook Class: Crea
     {
         public RankedGradeBook(string name) : base(name)
         {
-            Type = GradeBookType.Ranked;
+            Type = GradeBookType.Ranked; //Part2 Step 6- Update RankedGradeBook's Type: Create a constructor for RankedGradeBook that sets the Type property to GradeBookType.Ranked
         }
 
     }
