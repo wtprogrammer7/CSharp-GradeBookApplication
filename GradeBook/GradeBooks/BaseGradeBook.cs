@@ -13,6 +13,7 @@ namespace GradeBook.GradeBooks
     {
         public string Name { get; set; }
         public List<Student> Students { get; set; }
+        public GradeBookType Type {get; set; } //Part 2 Step 2- Add Property Type to BaseGradeBook
 
         public BaseGradeBook(string name)
         {
