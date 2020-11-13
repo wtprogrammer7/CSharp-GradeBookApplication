@@ -14,11 +14,11 @@ namespace GradeBook.GradeBooks //Part2 Step5- Create RankedGradeBook Class: Crea
         {
             if (Students.Count < 5)
                 throw new InvalidOperationException("Ranked - grading requires a minimum of 5 students to work");
-                return base.GetLetterGrade('F');
+                //return base.GetLetterGrade('F');
             //var threshold = (int)Math.Ceiling(Students.Count * 0.2);
 
-            
 
+            return base.GetLetterGrade(averageGrade);
         }
     }
 }
