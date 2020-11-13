@@ -4,7 +4,7 @@
     {
         public StandardGradeBook()
         {
-            : base(BaseGradeBook);
+            
         }
     }
 }
