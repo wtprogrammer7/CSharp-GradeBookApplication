@@ -14,9 +14,9 @@ namespace GradeBook.GradeBooks //Part2 Step5- Create RankedGradeBook Class: Crea
         public override char GetLetterGrade(double averageGrade)
         {
             if (Students.Count < 5)
-            {
+            
                 throw new InvalidOperationException("Ranked - grading requires a minimum of 5 students to work");
-            }
+            
 
             //var threshold = (int)Math.Ceiling(Students.Count * 0.2);
             //var grades = Students.OrderByDescending(e => e.AverageGrade).Select(e => e.AverageGrade).ToList();
