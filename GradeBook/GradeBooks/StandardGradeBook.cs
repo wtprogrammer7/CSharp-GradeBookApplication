@@ -1,6 +1,6 @@
 ﻿namespace GradeBook.GradeBooks
 {
-    class StandardGradeBook
+    public class StandardGradeBook
     {
         public StandardGradeBook()
         {
